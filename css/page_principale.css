@@ -18,20 +18,35 @@ h1
     text-shadow: 0 3px rgb(0, 0, 0);
     
 }
-li
-{
-    border-style:groove ;
-    border-width: 0.1cm;
-    background-color: gray;
-    margin: 0.3cm;
-    padding: 1%;
-    border-color: black;
-}
 ul
 {
-    list-style: none;
-}
 
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;  
+}
+.ligne
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;  
+}
+a:link,a:visited
+{
+    background-color: gray;
+    border: groove black 0.1cm;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.2cm;
+}
+a:hover
+{
+    background-color:rgb(80, 80, 80);
+}
 footer
 {
     background-color: gray;
