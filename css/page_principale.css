@@ -1,10 +1,17 @@
+@font-face
+{
+    font-family:"Minecraft";
+    src: url("font.ttf") format("truetype")
+}
 body{
     background: url("../Images/fond.jpg") fixed no-repeat;
     background-size: contain;
     background-position-y: 0cm;
     text-align: center;
+    font-family: "Minecraft";
 }
-h1
+
+footer
 {
-    
+    background-color: aqua;
 }
