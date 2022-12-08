@@ -12,10 +12,23 @@ body{
 }
 h1
 {
+    font-size: 300% ;
     font-family: "Minecraft";
+    color: rgb(126, 126, 126);
+    text-shadow: 0 3px rgb(0, 0, 0);
+    
+}
+a
+{
+    border-style:groove ;
+    border-width: 0.1cm;
+    background-color: gray;
+    margin: 0.1cm;
+    padding: 1%;
+    border-color: black;
 }
 
 footer
 {
-    background-color: aqua;
+    background-color: gray;
 }
