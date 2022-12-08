@@ -3,9 +3,11 @@
     font-family:"Minecraft";
     src: url("font.ttf") format("truetype")
 }
-body{
+.Accueil{
     background: url("../Images/fond.jpg") fixed no-repeat;
     background-size: contain;
+    height: 70vh;
+    width: 100vv;
     background-position-y: 0cm;
     text-align: center;
     
@@ -18,21 +20,25 @@ h1
     text-shadow: 0 3px rgb(0, 0, 0);
     
 }
-ul
-{
-
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;  
-}
 .ligne
 {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;  
+    align-self:flex-start; 
 }
-a:link,a:visited
+ul
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+ul li.toto{
+    width:100%;
+
+}
+a:link,a:visited,a:hover
 {
     background-color: gray;
     border: groove black 0.1cm;
