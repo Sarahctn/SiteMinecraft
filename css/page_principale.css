@@ -3,15 +3,16 @@
     font-family:"Minecraft";
     src: url("font.ttf") format("truetype")
 }
+
 .Accueil{
     background: url("../Images/fond.jpg") fixed no-repeat;
     background-size: contain;
-    height: 70vh;
-    width: 100vv;
+    height: auto;
+    width: auto;
     background-position-y: 0cm;
     text-align: center;
-    
 }
+
 h1
 {
     font-size: 300% ;
@@ -20,40 +21,83 @@ h1
     text-shadow: 0 3px rgb(0, 0, 0);
     
 }
+
 .ligne
 {
     display: flex;
     flex-direction: row;
     align-self:flex-start; 
 }
+
 ul
 {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 
 }
-ul li.toto{
-    width:100%;
 
-}
+
+
 a:link,a:visited,a:hover
 {
     background-color: gray;
     border: groove black 0.1cm;
     color: white;
-    padding: 14px 25px;
+    
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 0.2cm;
+    
 }
+
 a:hover
 {
     background-color:rgb(80, 80, 80);
 }
+
 footer
 {
-    background-color: gray;
+    background-color: lightgreen;
+}
+
+@media screen and (min-width: 480px){
+    ul li.toto{
+        width: 100%;
+    
+    }
+    a{
+        padding: 14px 25px;
+        margin: 0.2cm;
+    }
+}
+
+/* Format telephone en mode portrait */
+@media screen and (max-width: 479px){
+    section.Accueil{
+        background: none; 
+        background-color: green;
+        background-position-y: 0cm;
+        text-align: center;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        background-color: brown;
+    }
+    a{
+        margin: 0;
+        padding: 0;
+    }
+    ul li .toto {
+        width: 1px;
+    }
+    h1{
+        height: 10vh;
+        width: auto;
+        color: gray;
+        margin: 0;
+    }
+
 }
