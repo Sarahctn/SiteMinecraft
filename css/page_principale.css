@@ -5,28 +5,23 @@
 }
 
 body {
-    margin: 0;
-    background-color: rgb(220, 220, 220);
+    margin: 0; /* Pour ne pas avoir de bande blanche autour*/
+    background-color: rgb(220, 220, 220); /* Sorte de gris*/
 }
 
 .Accueil{
     background: url("../Images/fond.jpg") fixed no-repeat;
     background-size: contain;
     height: auto;
-    width: auto;
     background-position-y: 0cm;
     text-align: center;
-    margin: 0 0 110px 0;
-    position: fixed;
+    margin: 0;
+    position: fixed; /* Pour voir la barre même si on descend */
     top: 0;
     width: 100%;
 }
 
-header {
-    margin-top: 110px;
-}
-
-.h1Accueil
+.h1Accueil /* Le titre Minecraft, en gris, avec de l'ombre*/
 {
     font-size: 300% ;
     font-family: "Minecraft";
@@ -38,6 +33,7 @@ header {
 h1{
     text-align: center;
     font-size: 2em;
+    margin: 0;
 }
 
 p.sous-titre {
@@ -64,7 +60,7 @@ ol {
     padding:0 7.5% 0 7.5%;
 }
 
-a:link,a:visited,a:hover
+a:link,a:visited,a:hover /* Les boutons de lien */
 {
     background-color: gray;
     border: groove black 0.1cm;
@@ -114,12 +110,10 @@ footer
         background-color: green;
         background-position-y: 0cm;
         text-align: center;
-        margin-bottom: 110px;
     }
     ul{
         margin: 0;
-        padding: 0;
-        margin-top: 110px;
+        padding: 0 5% 0 5%;
     }
     nav ul {
         background-color: brown;
@@ -145,6 +139,7 @@ footer
     }
     section.contenu{
         margin: 10px;
+        padding-top: 85px;
     }
     footer p {
         margin-top: 10px;
