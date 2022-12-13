@@ -96,7 +96,7 @@ footer
     margin-bottom: 0;
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 960px){
     ul li.grandBouton{
         width: 100%;
     
@@ -143,11 +143,19 @@ footer
         color: gray;
         margin: 0;
     }
-    section.description{
+    section.contenu{
         margin: 10px;
     }
     footer p {
         margin-top: 10px;
         margin-bottom: 0px;
+    }
+}
+
+/* Format telephone en paysage ou tablette en portrait */
+@media screen and (min-width: 460px and max-width: 959px) {
+    body{
+        display: flex;
+        flex-direction: column;
     }
 }
