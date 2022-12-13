@@ -4,6 +4,10 @@
     src: url("font.ttf") format("truetype")
 }
 
+body {
+    margin: 0;
+}
+
 .Accueil{
     background: url("../Images/fond.jpg") fixed no-repeat;
     background-size: contain;
@@ -11,6 +15,7 @@
     width: auto;
     background-position-y: 0cm;
     text-align: center;
+    margin: 0;
 }
 
 h1
@@ -19,7 +24,7 @@ h1
     font-family: "Minecraft";
     color: rgb(126, 126, 126);
     text-shadow: 0 3px rgb(0, 0, 0);
-    
+    margin: 0;
 }
 
 .ligne
