@@ -27,7 +27,7 @@ h1
     margin: 0;
 }
 
-.ligne
+.petitBouton
 {
     display: flex;
     flex-direction: row;
@@ -68,7 +68,7 @@ footer
 }
 
 @media screen and (min-width: 480px){
-    ul li.toto{
+    ul li.grandBouton{
         width: 100%;
     
     }
@@ -95,7 +95,7 @@ footer
         margin: 0;
         padding: 0;
     }
-    ul li .toto {
+    ul li .grandBouton {
         width: 1px;
     }
     h1{
