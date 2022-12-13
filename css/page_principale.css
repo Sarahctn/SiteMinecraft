@@ -18,13 +18,18 @@ body {
     margin: 0;
 }
 
-h1
+.h1Accueil
 {
     font-size: 300% ;
     font-family: "Minecraft";
     color: rgb(126, 126, 126);
     text-shadow: 0 3px rgb(0, 0, 0);
     margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
 }
 
 .petitBouton
@@ -98,7 +103,7 @@ footer
     ul li .grandBouton {
         width: 1px;
     }
-    h1{
+    .h1Accueil{
         height: 10vh;
         width: auto;
         color: gray;
