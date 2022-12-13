@@ -17,6 +17,9 @@ body {
     background-position-y: 0cm;
     text-align: center;
     margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .h1Accueil
