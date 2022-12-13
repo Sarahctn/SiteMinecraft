@@ -8,45 +8,51 @@
     <meta name="description" content="Ce site parle de certains aspects de Minecraft. Cette page vous permet de nous contacter.">
   </head>
   <body>
-            <!--Barre de Menu-->
-
-            <nav>
-              <ul>
-                <li>
-                  <a href="../HTML/index.html">Accueil</a>
-                </li>
-                <li>
-                  <a href="../HTML/pageObjets.html">Objets</a>
-                </li>
-                <li>
-                  <a href="../HTML/pageMonstres.html">Monstres</a> 
-                </li>
-                <li>
-                  <a href="../HTML/pageMods.html">Mods</a>
-                </li>
-                <li>
-                  <a href="../HTML/pageContact.html">Contact</a>
-                </li>
-              </ul>
-            </nav>
-    <h1>Contact</h1>
-
-    <h2>Qui sommes-nous</h2>
-    <p>...</p>
-    <h2>Contactez-nous</h2>
-    <form id="form" action="mailto:webminecraft2022@gmail.com" method="post" enctype="text/plain">
-        <p>
-            <label for="Prenom">Prenom</label><input id="Prenom" type="text" name="prenom" value=" ">
-            <label for="Nom">nom</label><input id="Nom" type="text" name="nom" value=" ">
-            <select name="sexe">
-              <option>Homme</option>
-              <option>Femme</option>
-              <option>ni l'un, ni l'autre</option>
-            </select>
-            <textarea name="impression" rows="5" cols="50">Que pensez-vous de ce site (positif uniquement svp)</textarea>
-            <input type="submit" value="Envoyer">
-        </p>
-    </form>
+    <section class="Accueil">
+      <!--Titre-->
+      <h1 class="h1Accueil">
+        Minecraft
+      </h1>
+      <!--Barre de Menu-->
+      <nav>
+        <ul>
+          <li>
+            <a href="../HTML/index.html">Accueil</a>
+          </li>
+          <li>
+            <a href="../HTML/pageObjets.html">Objets</a>
+          </li>
+          <li>
+            <a href="../HTML/pageMonstres.html">Monstres</a> 
+          </li>
+          <li>
+            <a href="../HTML/pageMods.html">Mods</a>
+          </li>
+          <li>
+            <a href="../HTML/pageContact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section>
+      <h1>Contact</h1>
+      <h2>Qui sommes-nous</h2>
+      <p>...</p>
+      <h2>Contactez-nous</h2>
+      <form id="form" action="mailto:webminecraft2022@gmail.com" method="post" enctype="text/plain">
+          <p>
+              <label for="Prenom">Prenom</label><input id="Prenom" type="text" name="prenom" value=" ">
+              <label for="Nom">nom</label><input id="Nom" type="text" name="nom" value=" ">
+              <select name="sexe">
+                <option>Homme</option>
+                <option>Femme</option>
+                <option>ni l'un, ni l'autre</option>
+              </select>
+              <textarea name="impression" rows="5" cols="50">Que pensez-vous de ce site (positif uniquement svp)</textarea>
+              <input type="submit" value="Envoyer">
+          </p>
+      </form>
+    </section>
     <footer>
       <p>Attention !!! Ce site web peut contenir des informations fausses ou incompletes.</p>
     </footer>
