@@ -42,7 +42,7 @@ h1{
 
 p.sous-titre {
     text-align: center;
-    font-size: 1.5 em;
+    font-size: 1.5em;
 }
 
 .petitBouton
@@ -50,10 +50,6 @@ p.sous-titre {
     display: flex;
     flex-direction: row;
     align-self:flex-start; 
-}
-
-ul {
-    
 }
 
 nav ul
@@ -82,6 +78,16 @@ a:link,a:visited,a:hover
 a:hover
 {
     background-color:rgb(80, 80, 80);
+}
+
+aside {
+    background-color: rgb(255, 255, 153);
+    padding: 10px;
+}
+
+aside h1 {
+    margin-top: 0;
+    font-size: 1.5em;
 }
 
 footer
@@ -133,7 +139,6 @@ footer
         width: 1px;
     }
     .h1Accueil{
-        height: 10vh;
         width: auto;
         color: gray;
         margin: 0;
