@@ -41,12 +41,12 @@ p.sous-titre {
     font-size: 1.5em;
 }
 
-.petitBouton
+/*.petitBouton
 {
     display: flex;
     flex-direction: row;
     align-self:flex-start; 
-}
+}*/
 
 nav ul
 {
@@ -168,11 +168,14 @@ footer
         margin: 0;
     }
     section.contenu {
-        padding-top: 110px;
+        padding-top: 60px;
         /*display: flex;*/
         /*align-items: center;
         justify-content: center;*/
-        margin-left: 100px;
+        margin-left: 110px;
+    }
+    ol {
+        padding: 0 10px 0 10px;
     }
     section.Accueil{
         flex-wrap: wrap;
@@ -183,6 +186,7 @@ footer
         width: 100%;
         background-color: green;
     }
+    
     img { /*Centre les images et les empeche d'etre trop grande */
         max-width: 400px;
         max-height: 300px;
