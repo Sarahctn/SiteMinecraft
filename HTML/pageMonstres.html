@@ -7,6 +7,22 @@
     <link rel="icon" type="image/jpg" href="../Images/faviconEnJpg.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ce site parle de certains aspects de Minecraft. Cette page traite des monstres.">
+    <script>
+      function toggleTheme() {
+          // Obtains an array of all <link>
+          // elements.
+          // Select your element using indexing.
+          var theme = document.getElementsByTagName('link')[0];
+
+          // Change the value of href attribute 
+          // to change the css sheet.
+          if (theme.getAttribute('href') == '../css/pages_sauf_index.css') {
+              theme.setAttribute('href', '../css/pages_sauf_index_sombre.css');
+          } else {
+              theme.setAttribute('href', '../css/pages_sauf_index.css');
+          }
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -22,8 +38,7 @@
             <li><a href="">Monstres</a> </li>
             <li><a href="../HTML/pageMods.html">Mods</a></li>
             <li><a href="../HTML/pageContact.html">Contact</a></li>
-            <li><button class = "nuit" id ="btn" class="theme">nuit</button></li>
-            <li><button class = "jour" id ="btns" class="theme">jour</button></li>
+            <li><button class = "nuit" onclick="toggleTheme()">Switch</button></li>
           </ul>
         </nav>
     </header>
