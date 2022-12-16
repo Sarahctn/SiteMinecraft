@@ -127,7 +127,7 @@ footer a.bouton
         display: flex;
         justify-content: space-around;
         align-items: center; 
-        background-image:url("../Images/fond3.jpg") ;
+        background-image:url("../Images/obsidienne.jpg") ;
         
   
     }
@@ -182,7 +182,7 @@ footer
 @media screen and (max-width: 479px){
     header{
         background: none; 
-        background-color: green;
+        background-image: url("../Images/obsidienne.jpg");
         background-position-y: 0cm;
         text-align: center;
         position: fixed; /* Pour voir la barre même si on descend */
@@ -193,7 +193,7 @@ footer
         padding: 0 5% 0 5%;
     }
     nav ul {
-        background-color: brown;
+        background-color: rgb(190, 190, 190);
         margin-top: 10px;
     }
     a{
@@ -234,7 +234,7 @@ footer
         width: 100%;
         max-width: 100px;
         
-        background-color: brown;
+        background-color:rgb(190, 190, 190);
     }
     nav ul {
         display: flex;
@@ -266,7 +266,7 @@ footer
         align-items: center;
         justify-content: center;
         width: 100%;
-        background-color: green;
+        background-image: url('../Images/obsidienne.jpg');
     }
     img { /*Centre les images et les empeche d'etre trop grande */
         max-width: 400px;
