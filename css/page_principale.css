@@ -1,7 +1,7 @@
 @font-face
 {
     font-family:"Minecraft";
-    src: url("/css/font.ttf") format("truetype")
+    src: url("/SiteMinecraft/css/font.ttf") format("truetype")
 }
 
 body {
@@ -112,7 +112,7 @@ footer a.bouton
         margin: 0.2cm;
     }
     section.Accueil{
-        background: url("/Images/fond.jpg") no-repeat;
+        background: url("/SiteMinecraft/Images/fond.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         padding-bottom: 15%;
