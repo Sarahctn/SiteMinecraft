@@ -101,6 +101,7 @@ footer a.bouton
     bottom: 0;
 }
 
+/* Format ordinateur */
 @media screen and (min-width: 960px){
     ul li.grandBouton{
         width: 100%;
@@ -137,7 +138,7 @@ footer a.bouton
         color: rgb(0, 136, 255);
     }
     p{
-        text-align: center;
+        text-align: left;
         color: rgb(4, 138, 255);
     }
     img
