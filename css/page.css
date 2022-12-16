@@ -1,0 +1,138 @@
+body
+{
+    background: url("../Images/fond3.jpg") fixed;
+
+}
+@font-face
+{
+    font-family:"Minecraft";
+    src: url("font.ttf") format("truetype")
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background: url("../Images/fond2.jpg") ;
+    
+    
+}
+header ul li a:hover{
+    
+    background-color:rgb(80, 80, 80);
+}
+.nuit
+{
+    background-color: gray;
+    border: groove black 0.1cm;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.nuit:hover
+{
+    background-color: #0f056B;
+    color: aliceblue;
+}
+.jour
+{
+    background-color: gray;
+    border: groove black 0.1cm;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.jour:hover
+{
+    background-color: rgb(255, 204, 0);
+    color: aliceblue;
+}
+
+
+.h1Accueil /* Le titre Minecraft, en gris, avec de l'ombre*/
+{
+    font-size: 300% ;
+    font-family: "Minecraft";
+    color: rgb(126, 126, 126);
+    text-shadow: 0 3px rgb(0, 0, 0);
+    margin: 0;
+}
+ul{
+    display: flex;
+    position: relative;
+}
+ul li { 
+    list-style: none;
+}
+ul a{
+    background-color: gray;
+    border: groove black 0.1cm;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    margin: 10px;
+    
+}
+header ul li button:hover{ 
+    background-color:rgb(80, 80, 80);
+        }  
+ul button
+{   
+    color:black;   
+    text-decoration: none; 
+    margin-left: 30px; 
+    font-weight: 700 ; 
+}  
+section{
+    padding: 100px;   
+}
+ol
+{
+    list-style: none;
+}
+.titre
+{
+    text-align: center;
+    color: aliceblue;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+
+.liste
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer
+{
+    background-color: rgb(38, 38, 169);
+}
+.lien
+{
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.lien:hover
+{
+    color:rgb(80, 80, 80);
+}
+
+
+
+
+
