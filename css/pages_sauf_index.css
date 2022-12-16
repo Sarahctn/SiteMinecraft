@@ -110,6 +110,10 @@ footer a.bouton
         width: 100%;
     
     }
+    .h1Accueil
+    {
+        color: gray;
+    }
     a{
         padding: 14px 25px;
         margin: 0.2cm;
