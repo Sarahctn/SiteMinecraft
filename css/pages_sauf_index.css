@@ -10,13 +10,11 @@ body {
 }
 
 header{
-    /*background: url("../Images/fond.jpg") fixed no-repeat;*/
     background-size: contain;
     height: auto;
     background-position-y: 0cm;
     text-align: center;
     margin: 0;
-    
     width: 100%;
 }
 
@@ -40,13 +38,6 @@ p.sous-titre {
     font-size: 1.5em;
 }
 
-/*.petitBouton
-{
-    display: flex;
-    flex-direction: row;
-    align-self:flex-start; 
-}*/
-
 nav ul
 {
     list-style: none;
@@ -69,6 +60,11 @@ a:link,a:visited,a:hover /* Les boutons de lien */
     text-decoration: none;
     display: inline-block;
     
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 a:hover
@@ -108,7 +104,6 @@ footer a.bouton
 @media screen and (min-width: 960px){
     ul li.grandBouton{
         width: 100%;
-    
     }
     .h1Accueil
     {
@@ -128,11 +123,8 @@ footer a.bouton
         justify-content: space-around;
         align-items: center; 
         background-image:url("/Images/obsidienne.jpg") ;
-        
-  
     }
-    header ul li a:hover{
-        
+    header ul li a:hover{  
         background-color:rgb(80, 80, 80);
     }
     ol
@@ -148,10 +140,14 @@ footer a.bouton
         text-align: center;
         color: rgb(4, 138, 255);
     }
-
+    img
+    {
+        max-width: 400px;
+        max-height: 300px;
+        text-align: center;
+    }
     .liste
     {
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -203,8 +199,6 @@ footer a.bouton
     img {
         max-width: 300px;
         max-height: 200px;
-        display: block;
-        margin: auto;
     }
     nav ul li .grandBouton {
         width: 1px;
@@ -245,9 +239,6 @@ footer a.bouton
     }
     section.contenu {
         padding-top: 60px;
-        /*display: flex;*/
-        /*align-items: center;
-        justify-content: center;*/
         margin-left: 110px;
     }
     ol {
@@ -272,7 +263,5 @@ footer a.bouton
         max-width: 400px;
         max-height: 300px;
         text-align: center;
-        display: block;
-        margin: auto;
     }
 }
