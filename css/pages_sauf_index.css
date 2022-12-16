@@ -104,6 +104,9 @@ footer a.bouton
     right: 0;
     bottom: 0;
 }
+form {
+    display: flex;
+}
 
 /* Format ordinateur */
 @media screen and (min-width: 960px){
@@ -269,4 +272,5 @@ footer a.bouton
         max-height: 300px;
         text-align: center;
     }
+    
 }
