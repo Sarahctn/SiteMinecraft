@@ -10,24 +10,22 @@ body {
 }
 
 .Accueil{
-    /*background: url("../Images/fond.jpg") fixed no-repeat;*/
-    background-size: contain;
+    background: url("../Images/fond.jpg") no-repeat;
+    background-size: cover;
     height: auto;
-    background-position-y: 0cm;
     text-align: center;
-    margin: 0;
-    position: fixed; /* Pour voir la barre même si on descend */
-    top: 0; /* Pour que la barre soit fixee en haut */
-    width: 100%;
+    padding: 25%;
+
 }
 
 .h1Accueil /* Le titre Minecraft, en gris, avec de l'ombre*/
 {
-    font-size: 300% ;
+    font-size: 1.5cm;
     font-family: "Minecraft";
     color: rgb(126, 126, 126);
     text-shadow: 0 3px rgb(0, 0, 0);
-    margin: 0;
+    text-align: center;
+    
 }
 
 h1{
@@ -36,30 +34,18 @@ h1{
     margin: 0;
 }
 
-p.sous-titre {
+.contenu p {
     text-align: center;
-    font-size: 1.5em;
 }
 
-/*.petitBouton
-{
-    display: flex;
-    flex-direction: row;
-    align-self:flex-start; 
-}*/
-
-nav ul
+.Bouton
 {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0;
+    flex-direction: column;
+
 }
 
-ol {
-    padding:0 7.5% 0 7.5%;
-}
 
 a:link,a:visited,a:hover /* Les boutons de lien */
 {
@@ -90,67 +76,9 @@ aside h1 {
 footer
 {
     background-color: lightgreen;
-    margin-bottom: 0;
+    
 }
 
-@media screen and (min-width: 960px){
-    ul li.grandBouton{
-        width: 100%;
-    
-    }
-    a{
-        padding: 14px 25px;
-        margin: 0.2cm;
-    }
-    section.Accueil{
-        background: url("../Images/fond.jpg") fixed no-repeat;
-    
-    }
-}
-
-/* Format telephone en mode portrait */
-@media screen and (max-width: 479px){
-    section.Accueil{
-        background: none; 
-        background-color: green;
-        background-position-y: 0cm;
-        text-align: center;
-    }
-    ul{
-        margin: 0;
-        padding: 0 5% 0 5%;
-    }
-    nav ul {
-        background-color: brown;
-        margin-top: 10px;
-    }
-    a{
-        margin: 0;
-        padding: 0;
-    }
-    img {
-        max-width: 300px;
-        max-height: 200px;
-        display: block;
-        margin: auto;
-    }
-    nav ul li .grandBouton {
-        width: 1px;
-    }
-    .h1Accueil{
-        width: auto;
-        color: gray;
-        margin: 0;
-    }
-    section.contenu{
-        margin: 10px;
-        padding-top: 85px;
-    }
-    footer p {
-        margin-top: 10px;
-        margin-bottom: 0px;
-    }
-}
 
 /* Format telephone en paysage ou tablette en portrait */
 @media screen and (min-width: 480px) and (max-width: 959px) {
@@ -172,11 +100,12 @@ footer
         min-height: 50vh;
     }
     section.contenu {
-        padding-top: 60px;
-        /*display: flex;*/
-        /*align-items: center;
-        justify-content: center;*/
-        margin-left: 110px;
+        
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        
     }
     ol {
         padding: 0 10px 0 10px;
