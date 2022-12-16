@@ -1,9 +1,12 @@
 @font-face
 {
     font-family:"Minecraft";
-    src: url("/SiteMinecraft/css/font.ttf") format("truetype")
+    src: url("/SiteMinecraft/css/font.ttf") format("truetype");
 }
-
+@font-face {
+    font-family: "McLivre";
+    src: url(/SiteMinecraft/css/Minecraftia.ttf) format("truetype");
+}
 body {
     margin: 0; /* Pour ne pas avoir de bande blanche autour*/
     background-color: rgb(220, 220, 220); /* Sorte de gris*/
@@ -45,6 +48,7 @@ nav ul
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
+    font-family: "McLivre";
 }
 
 ol {
@@ -138,8 +142,8 @@ footer a.bouton
         color: rgb(0, 136, 255);
     }
     p{
-        text-align: left;
-        color: rgb(4, 138, 255);
+        text-align: center;
+        color: black;
     }
     img
     {

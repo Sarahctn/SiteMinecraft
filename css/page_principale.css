@@ -1,7 +1,12 @@
 @font-face
 {
     font-family:"Minecraft";
-    src: url("/SiteMinecraft/css/font.ttf") format("truetype")
+    src: url("/SiteMinecraft/css/font.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "McLivre";
+    src: url(/SiteMinecraft/css/Minecraftia.ttf) format("truetype");
 }
 
 body {
@@ -46,6 +51,7 @@ nav ul
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
+    font-family: "McLivre";
 }
 
 ol {
