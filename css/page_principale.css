@@ -115,8 +115,14 @@ footer a.bouton
         margin: 0.2cm;
     }
     section.Accueil{
-        background: url("../Images/fond.jpg") fixed no-repeat;
-    
+        background: url("../Images/fond.jpg") no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 15%;
+        padding-top: 10%;
+    }
+    .h1Accueil{
+        padding-bottom: 5%;
     }
 }
 
