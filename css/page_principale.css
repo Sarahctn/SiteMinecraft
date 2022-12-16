@@ -16,8 +16,7 @@ body {
     background-position-y: 0cm;
     text-align: center;
     margin: 0;
-    position: fixed; /* Pour voir la barre même si on descend */
-    top: 0; /* Pour que la barre soit fixee en haut */
+    
     width: 100%;
 }
 
@@ -80,6 +79,7 @@ a:hover
 aside {
     background-color: rgb(255, 255, 153);
     padding: 10px;
+    
 }
 
 aside h1 {
@@ -91,6 +91,17 @@ footer
 {
     background-color: lightgreen;
     margin-bottom: 0;
+}
+
+footer a.bouton 
+{
+    color: #ff6347;
+    cursor:pointer;
+    display: inline-block; 
+    border: solid 1px #ff6347; 
+    padding: 5px; 
+    position: fixed;
+    bottom: 0;
 }
 
 @media screen and (min-width: 960px){
@@ -115,6 +126,8 @@ footer
         background-color: green;
         background-position-y: 0cm;
         text-align: center;
+        position: fixed; /* Pour voir la barre même si on descend */
+        top: 0; /* Pour que la barre soit fixee en haut */
     }
     ul{
         margin: 0;
@@ -183,6 +196,8 @@ footer
     }
     section.Accueil{
         flex-wrap: wrap;
+        position: fixed; /* Pour voir la barre même si on descend */
+        top: 0; /* Pour que la barre soit fixee en haut */
     }
     section.Accueil a{
         width: 90%;
