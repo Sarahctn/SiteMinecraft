@@ -104,10 +104,7 @@ footer a.bouton
     right: 0;
     bottom: 0;
 }
-form {
-    display: flex;
-    flex-direction: column;
-}
+
 
 /* Format ordinateur */
 @media screen and (min-width: 960px){
