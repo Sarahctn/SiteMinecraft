@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "McLivre";
-    src: url(/SiteMinecraft/css/Minecraftia.ttf) format("truetype");
+    src: url("/SiteMinecraft/css/Minecraftia.ttf") format("truetype");
 }
 
 body {
