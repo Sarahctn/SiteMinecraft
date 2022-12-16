@@ -1,7 +1,7 @@
 @font-face
 {
     font-family:"Minecraft";
-    src: url("font.ttf") format("truetype")
+    src: url("/css/font.ttf") format("truetype")
 }
 
 body {
@@ -10,7 +10,6 @@ body {
 }
 
 .Accueil{
-    /*background: url("../Images/fond.jpg") fixed no-repeat;*/
     background-size: contain;
     height: auto;
     background-position-y: 0cm;
@@ -40,13 +39,6 @@ p.sous-titre {
     font-size: 1.5em;
 }
 
-/*.petitBouton
-{
-    display: flex;
-    flex-direction: row;
-    align-self:flex-start; 
-}*/
-
 nav ul
 {
     list-style: none;
@@ -67,8 +59,7 @@ a:link,a:visited,a:hover /* Les boutons de lien */
     color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 
 a:hover
@@ -121,7 +112,7 @@ footer a.bouton
         margin: 0.2cm;
     }
     section.Accueil{
-        background: url("../Images/fond.jpg") no-repeat;
+        background: url("/Images/fond.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         padding-bottom: 15%;
@@ -202,9 +193,6 @@ footer a.bouton
     }
     section.contenu {
         padding-top: 60px;
-        /*display: flex;*/
-        /*align-items: center;
-        justify-content: center;*/
         margin-left: 110px;
     }
     ol {

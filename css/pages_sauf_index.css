@@ -1,7 +1,7 @@
 @font-face
 {
     font-family:"Minecraft";
-    src: url("font.ttf") format("truetype")
+    src: url("/css/font.ttf") format("truetype")
 }
 
 body {
@@ -127,7 +127,7 @@ footer a.bouton
         display: flex;
         justify-content: space-around;
         align-items: center; 
-        background-image:url("../Images/obsidienne.jpg") ;
+        background-image:url("/Images/obsidienne.jpg") ;
         
   
     }
@@ -136,53 +136,53 @@ footer a.bouton
         background-color:rgb(80, 80, 80);
     }
     ol
-{
-    list-style: none;
-}
-.titre
-{
-    text-align: center;
-    color: rgb(0, 136, 255);
-}
-p{
-    text-align: center;
-    color: rgb(4, 138, 255);
-}
+    {
+        list-style: none;
+    }
+    .titre
+    {
+        text-align: center;
+        color: rgb(0, 136, 255);
+    }
+    p{
+        text-align: center;
+        color: rgb(4, 138, 255);
+    }
 
-.liste
-{
+    .liste
+    {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-section
-{
-    padding: 120px;
-}
-footer
-{
-    background-color: rgb(38, 38, 169);
-}
-.lien
-{
-    
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-.lien:hover
-{
-    color:rgb(80, 80, 80);
-}
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section
+    {
+        padding: 120px;
+    }
+    footer
+    {
+        background-color: rgb(38, 38, 169);
+    }
+    .lien
+    {
+        
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .lien:hover
+    {
+        color:rgb(80, 80, 80);
+    }
+    }
 
 /* Format telephone en mode portrait */
 @media screen and (max-width: 479px){
     header{
         background: none; 
-        background-image: url("../Images/obsidienne.jpg");
+        background-image: url("/Images/obsidienne.jpg");
         background-position-y: 0cm;
         text-align: center;
         position: fixed; /* Pour voir la barre même si on descend */
@@ -266,7 +266,7 @@ footer
         align-items: center;
         justify-content: center;
         width: 100%;
-        background-image: url('../Images/obsidienne.jpg');
+        background-image: url('/Images/obsidienne.jpg');
     }
     img { /*Centre les images et les empeche d'etre trop grande */
         max-width: 400px;
