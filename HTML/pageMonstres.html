@@ -9,7 +9,7 @@
     <meta name="description" content="Ce site parle de certains aspects de Minecraft. Cette page traite des monstres.">
   </head>
   <body>
-    <section class="Accueil">
+    <header>
       <!--Titre-->
         <h1 class="h1Accueil">
             Minecraft
@@ -17,34 +17,33 @@
         <!--Barre de Menu-->
         <nav>
           <ul>
-            <li>
-                <a href="../HTML/index.html">Accueil</a>
-            </li>
-            <li>
-              <a href="../HTML/pageObjets.html">Objets</a>
-            </li>
-            <li>
-              <a href="">Monstres</a> 
-            </li>
-            <li>
-              <a href="../HTML/pageMods.html">Mods</a>
-            </li>
-            <li>
-              <a href="../HTML/pageContact.html">Contact</a>
-            </li>
+            <li><a href="../HTML/index.html">Accueil</a></li>
+            <li><a href="../HTML/pageObjets.html">Objets</a> </li>
+            <li><a href="">Monstres</a> </li>
+            <li><a href="../HTML/pageMods.html">Mods</a></li>
+            <li><a href="../HTML/pageContact.html">Contact</a></li>
+            <li><button class = "nuit" id ="btn" class="theme">nuit</button></li>
+            <li><button class = "jour" id ="btns" class="theme">jour</button></li>
           </ul>
         </nav>
-    </section>
+    </header>
+
     <section class="contenu">
-      <h1>Liste Monstres</h1>
-      <ul>
+      <h1 class="titre">Liste Monstres</h1>
+      <h2 class="titre">Animaux et créatures inoffensives</h2> 
+      <p>Plusieurs animaux et créatures peuplent le monde de Minecraft. Ils sont souvent inoffensifs et n'attaquent pas le joueur. La plupart peuvent se reproduire</p>
+      <ol class="liste">
         <li>
-            <h2>Animaux et créatures inoffensives</h2>
-            <p>Plusieurs animaux et créatures peuplent le monde de Minecraft. Ils sont souvent inoffensifs et n'attaquent pas le joueur. La plupart peuvent se reproduire</p>
+          <h3 class="titre">Le chat</h3>
+          <p>Le chat est un animal calme et posée</p>  
+          <img src="../Images/chat.gif" alt="chat">
         </li>
-        <img src="../Images/chat.gif" alt="chat">
-        <img src="../Images/Piglin_Brute.webp" alt="test">  
-      </ul>
+        <li>
+          <h3 class="titre">Le cochon</h3>
+          <p>le cochon ne se mange pas </p>
+          <img src="../Images/Piglin_Brute.webp" alt="test">  
+        </li>
+      </ol>
     </section>
     <footer>
       <a class="bouton" href="#">Retour en haut</a>
