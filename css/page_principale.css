@@ -106,12 +106,18 @@ footer a.bouton
 }
 
 @media screen and (min-width: 960px){
-    ul li.grandBouton{
+    ul li.listeGrandBouton{
         width: 100%;
     
     }
-    a{
-        padding: 14px 25px;
+    a.grandBouton{
+        width: 500px;
+        padding: 14px 0 14px 0;
+        margin: 0.2cm;
+    }
+    a.petitBouton{
+        width: 240px;
+        padding: 14px 0 14px 0;
         margin: 0.2cm;
     }
     section.Accueil{
@@ -123,6 +129,9 @@ footer a.bouton
     }
     .h1Accueil{
         padding-bottom: 5%;
+    }
+    nav ul {
+        justify-content: center;
     }
 }
 
