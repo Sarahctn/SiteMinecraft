@@ -123,9 +123,9 @@ footer a.bouton
         display: flex;
         justify-content: space-around;
         align-items: center; 
-        background: url("../Images/fond2.jpg") ;
+        background-image:url("../Images/fond3.jpg") ;
         
-        
+  
     }
     header ul li a:hover{
         
@@ -154,7 +154,23 @@ p{
 }
 section
 {
-    padding: 100px;
+    padding: 120px;
+}
+footer
+{
+    background-color: rgb(38, 38, 169);
+}
+.lien
+{
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.lien:hover
+{
+    color:rgb(80, 80, 80);
 }
 }
 
