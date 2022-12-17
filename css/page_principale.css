@@ -38,7 +38,7 @@ h1{
     margin: 0;
 }
 
-p.sous-titre {
+p {
     text-align: center;
     font-size: 1.5em;
 }
@@ -101,7 +101,7 @@ footer a.bouton
     right: 0;
     bottom: 0;
 }
-
+/* Format Ordinateur*/
 @media screen and (min-width: 960px){
     ul li.listeGrandBouton{
         width: 100%;
@@ -171,6 +171,7 @@ footer a.bouton
         color: gray;
         margin: 0;
     }
+    
     section.contenu{
         margin: 10px;
         padding-top: 100px;

@@ -40,6 +40,10 @@ p.sous-titre {
     text-align: center;
     font-size: 1.5em;
 }
+p
+{
+    text-align: center;
+}
 
 nav ul
 {
@@ -53,6 +57,7 @@ nav ul
 
 ol {
     padding:0 7.5% 0 7.5%;
+    list-style: none;
 }
 
 a:link,a:visited,a:hover /* Les boutons de lien */
@@ -119,7 +124,7 @@ footer a.bouton
 }
 
 
-/* Format ordinateur */
+/* Format Ordinateur */
 @media screen and (min-width: 960px){
     ul li.grandBouton{
         width: 100%;
@@ -237,6 +242,10 @@ footer a.bouton
         color: gray;
         margin: 0;
     }
+    .titre
+    {
+        text-align: center;
+    }
     section.contenu{
         margin: 10px;
         padding-top: 120px;
@@ -292,6 +301,10 @@ footer a.bouton
         justify-content: center;
         width: 100%;
         background-image: url("/SiteMinecraft/Images/obsidienne.jpg");
+    }
+    .titre
+    {
+        text-align: center;
     }
     img { /*Centre les images et les empeche d'etre trop grande */
         max-width: 400px;
