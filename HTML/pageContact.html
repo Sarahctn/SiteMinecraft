@@ -46,12 +46,13 @@
       <h2 class="titre">Contactez-nous</h2>
       <form id="form" action="mailto:webminecraft2022@gmail.com" method="post" enctype="text/plain">
           <fieldset>
-            <label for="Prenom">Prénom</label><input id="Prenom" type="text" name="prenom" value=" "> 
+            <label for="Prenom">Prénom : </label><input id="Prenom" type="text" name="prenom" value=" "> 
           </fieldset>
           <fieldset>
-              <label for="Nom">Nom</label><input id="Nom" type="text" name="nom" value=" ">
+              <label for="Nom">Nom : </label><input id="Nom" type="text" name="nom" value=" ">
             </fieldset>
             <fieldset>
+              <label for="sexe">Sexe : </label>
               <select name="sexe">
                 <option>Homme</option>
                 <option>Femme</option>
@@ -59,7 +60,9 @@
               </select>
             </fieldset>
           <fieldset>
-              <textarea name="impression" rows="5" cols="50">Que pensez-vous de ce site (positif uniquement svp)</textarea>
+            <label for="Commentaire">Commentaire :</label>
+            <br>
+              <textarea name="impression" rows="5" cols="50">Que pensez-vous de ce site ?</textarea>
               <input type="submit" value="Envoyer">   
           <fieldset>
       </form>
