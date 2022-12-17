@@ -11,7 +11,7 @@
 
 body {
     margin: 0; /* Pour ne pas avoir de bande blanche autour*/
-    background-color: rgb(220, 220, 220); /* Sorte de gris*/
+    background-color: rgb(169, 144, 107);
 }
 
 header{
@@ -28,7 +28,7 @@ header{
 {
     font-size: 300% ;
     font-family: "Minecraft";
-    color: rgb(126, 126, 126);
+    color: green;
     text-shadow: 0 3px rgb(0, 0, 0);
     margin: 0;
 }
@@ -47,6 +47,11 @@ p.sous-titre {
 p
 {
     text-align: center;
+    color:white;
+}
+.titre
+{
+    color: white;
 }
 
 nav ul
@@ -108,10 +113,20 @@ aside h1 {
     margin-top: 0;
     font-size: 1.5em;
 }
+label
+{        
+    color: white;
+}
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 footer
 {
-    background-color: lightgreen;
+   background-image: url("/SiteMinecraft/Images/obsidienne.jpg");
     margin-bottom: 0;
 }
 
@@ -132,10 +147,7 @@ footer a.bouton
         width: 100%;
     
     }
-    .h1Accueil
-    {
-        color: gray;
-    }
+
     a{
         padding: 14px 25px;
         margin: 0.2cm;
@@ -153,7 +165,7 @@ footer a.bouton
         display: flex;
         justify-content: space-around;
         align-items: center; 
-        background-image:url("/SiteMinecraft/Images/fond3.jpg") ;
+        background-image: url("/SiteMinecraft/Images/fond3.jpg"); /* Sorte de gris*/
         
   
     }
@@ -162,28 +174,27 @@ footer a.bouton
         background-color:rgb(80, 80, 80);
     }
     ol
-{
-    list-style: none;
-}
-.titre
-{
+    {
+        list-style: none;
+    }
+    .titre
+    {
+        text-align: center;
+     
+    }
+    p{
     text-align: center;
-    color: rgb(0, 136, 255);
-}
-p{
-    text-align: center;
-    color: rgb(4, 138, 255);
-}
-img
-{
-    max-width: 400px;
-    max-height: 300px;
-    text-align: center;
-}
+   
+    }
+    img
+    {
+        max-width: 400px;
+        max-height: 300px;
+        text-align: center;
+    }
 
 .liste
 {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,13 +204,8 @@ section
     padding: 140px;
     
 }
-footer
-{
-    background-color: rgb(38, 38, 169);
-}
 .lien
 {
-    
     color: white;
     text-align: center;
     text-decoration: none;
@@ -215,7 +221,7 @@ footer
 @media screen and (max-width: 479px){
     header{
         background: none; 
-        background-color: green;
+        background-image: url("/SiteMinecraft/Images/fond3.jpg");
         background-position-y: 0cm;
         text-align: center;
         position: fixed; /* Pour voir la barre même si on descend */
@@ -226,7 +232,7 @@ footer
         padding: 0 5% 0 5%;
     }
     nav ul {
-        background-color: brown;
+        background-color: rgb(190, 190, 190);/* Sorte de gris*/
         margin-top: 10px;
     }
     a{
@@ -249,12 +255,17 @@ footer
     }
     .h1Accueil{
         width: auto;
-        color: gray;
+        
         margin: 0;
     }
     .titre
     {
         text-align: center;
+       
+    }
+    p{
+    text-align: center;
+    
     }
    
     section.contenu{
@@ -277,7 +288,7 @@ footer
         width: 100%;
         max-width: 100px;
         
-        background-color: brown;
+        background-color: rgb(190, 190, 190) /* Sorte de gris*/
     }
     nav ul {
         display: flex;
@@ -311,12 +322,19 @@ footer
         align-items: center;
         justify-content: center;
         width: 100%;
-        background-color: green;
+        color: green;
+        background-image: url("/SiteMinecraft/Images/fond3.jpg"); /* Sorte de gris*/
     }
     .titre
     {
         text-align: center;
+        
     }
+    p{
+    text-align: center;
+   
+    }
+
     img { /*Centre les images et les empeche d'etre trop grande */
         max-width: 400px;
         max-height: 300px;
