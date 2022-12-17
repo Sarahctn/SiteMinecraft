@@ -10,6 +10,7 @@
 body {
     margin: 0; /* Pour ne pas avoir de bande blanche autour*/
     background-color: rgb(220, 220, 220); /* Sorte de gris*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -34,6 +35,7 @@ h1{
     text-align: center;
     font-size: 2em;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p.sous-titre {
@@ -43,6 +45,8 @@ p.sous-titre {
 p
 {
     text-align: center;
+    color:black;
+    font-size: 0.5cm;
 }
 
 nav ul
@@ -165,10 +169,6 @@ footer a.bouton
     }
     .titre
     {
-        text-align: center;
-        color: black;
-    }
-    p{
         text-align: center;
         color: black;
     }

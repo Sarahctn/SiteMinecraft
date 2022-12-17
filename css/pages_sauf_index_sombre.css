@@ -12,6 +12,7 @@
 body {
     margin: 0; /* Pour ne pas avoir de bande blanche autour*/
     background-color: rgb(169, 144, 107);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
@@ -48,6 +49,7 @@ p
 {
     text-align: center;
     color:white;
+    font-size: 0.5cm;
 }
 .titre
 {
@@ -88,7 +90,10 @@ a:hover
 aside {
     background-color: rgb(255, 255, 153);
     padding: 10px;
-    
+}
+aside .astuce
+{
+    color: black;
 }
 
 button{
@@ -176,10 +181,6 @@ footer a.bouton
     {
         text-align: center;
      
-    }
-    p{
-    text-align: center;
-   
     }
     img
     {
@@ -273,10 +274,7 @@ textarea
         text-align: center;
        
     }
-    p{
-    text-align: center;
-    
-    }
+
    
     section.contenu{
         margin: 10px;
@@ -345,10 +343,7 @@ textarea
         text-align: center;
         
     }
-    p{
-    text-align: center;
-   
-    }
+
     form
 {
     display: flex;
