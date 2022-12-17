@@ -39,35 +39,43 @@
         </ul>
       </nav>
     </header>
-    <!--Contenu du site-->
+    <!--Contenu du page-->
     <section class="contenu">
+      <!--Titre de la page-->  
       <h1 class="titre">Contact</h1>
+      <!--Sous titre des type de monstres--> 
       <h2 class="titre">Qui sommes-nous ?</h2>
       <p>Nous sommes deux étudiants en BUT informatique. Nous avons pour objectif de réaliser un site web dans un cadre pédagogique.</p>
       <h2 class="titre">Contactez-nous</h2>
-      <form id="form" action="mailto:webminecraft2022@gmail.com" method="post" enctype="text/plain">
-          <fieldset>
-            <label for="Prenom">Prénom : </label><input id="Prenom" type="text" name="prenom" value=" "> 
-          </fieldset>
-          <fieldset>
-              <label for="Nom">Nom : </label><input id="Nom" type="text" name="nom" value=" ">
-            </fieldset>
-            <fieldset>
-              <label for="sexe">Sexe : </label>
-              <select name="sexe">
-                <option>Homme</option>
-                <option>Femme</option>
-                <option>Autre</option>
-              </select>
-            </fieldset>
-          <fieldset>
-            <label for="Commentaire">Commentaire :</label>
-            <br>
-              <textarea name="impression" rows="5" cols="50">Que pensez-vous de ce site ?</textarea>
-              <input type="submit" value="Envoyer">   
-          <fieldset>
+      <!--Formulaire contact-->
+      <form id="form" action="mailto:webminecraft2022@gmail.com" method="post" enctype="text/plain">  
+        <!--Label du Prénom-->
+        <fieldset>
+          <label for="Prenom">Prénom : </label><input id="Prenom" type="text" name="prenom" value=" "> 
+        </fieldset>
+        <!--Label du Nom-->
+        <fieldset>
+            <label for="Nom">Nom : </label><input id="Nom" type="text" name="nom" value=" ">
+        </fieldset>
+        <!--Label du Genre-->
+        <fieldset>
+          <label for="sexe">Sexe : </label>
+            <select name="sexe">
+              <option>Homme</option>
+              <option>Femme</option>
+              <option>Autre</option>
+            </select>
+        </fieldset>
+        <!--Label du Commentaire-->
+        <fieldset>
+          <label for="Commentaire">Commentaire :</label>
+          <br>
+            <textarea name="impression" rows="5" cols="50">Que pensez-vous de ce site ?</textarea>
+            <input type="submit" value="Envoyer">   
+        <fieldset>
       </form>
     </section>
+    <!--Le Footer-->
     <footer>
       <a class="bouton" href="#">Retour en haut</a>
       <p>Copyright Police : <a href="https://fontlibrary.org/en/font/minecraftia">Andrew Tyler</a></p>

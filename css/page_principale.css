@@ -1,9 +1,10 @@
+/* Police Minecraft du titre*/
 @font-face
 {
     font-family:"Minecraft";
     src: url("/SiteMinecraft/css/font.ttf") format("truetype");
 }
-
+/* Police Minecraft pour les Boutons de la balise nav*/
 @font-face {
     font-family: "McLivre";
     src: url("/SiteMinecraft/css/Minecraftia.ttf") format("truetype");
@@ -12,9 +13,9 @@
 body {
     margin: 0; /* Pour ne pas avoir de bande blanche autour*/
     background-color: rgb(220, 220, 220); /* Sorte de gris*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;/* police de body*/
 }
-
+/* Taille et position de la section Accueil*/
 .Accueil{
     background-size: contain;
     height: auto;
@@ -32,18 +33,18 @@ body {
     text-shadow: 0 3px rgb(0, 0, 0);
     margin: 0;
 }
-
+/* Taille et position des titre h1*/
 h1{
     text-align: center;
     font-size: 2em;
     margin: 0;
 }
-
+/* Taille et position du texte*/
 p {
     text-align: center;
     font-size: 0.5cm;
 }
-
+/* Positionnement  de la balise nav ul avec display flex*/
 nav ul
 {
     list-style: none;
@@ -51,11 +52,7 @@ nav ul
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
-    font-family: "McLivre";
-}
-
-ol {
-    padding:0 7.5% 0 7.5%;
+    font-family: "McLivre";/* Police de L'accueil*/
 }
 
 a:link,a:visited,a:hover /* Les boutons de lien */
@@ -67,30 +64,18 @@ a:link,a:visited,a:hover /* Les boutons de lien */
     text-decoration: none;
     display: inline-block; 
 }
-
-
+/* Couleur du bouton par curseur*/
 a:hover
 {
     background-color:rgb(80, 80, 80);
 }
-
-aside {
-    background-color: rgb(255, 255, 153);
-    padding: 10px;
-    
-}
-
-aside h1 {
-    margin-top: 0;
-    font-size: 1.5em;
-}
-
+/* Couleur du footer*/
 footer
 {
     background-color: lightgreen;
     margin-bottom: 0;
 }
-
+/* Aspect visuel des liens dans footer*/
 footer a.bouton 
 {
     color: white;
@@ -214,10 +199,12 @@ footer a.bouton
         position: fixed; /* Pour voir la barre même si on descend */
         top: 0; /* Pour que la barre soit fixee en haut */
     }
+    /* Position des lien dans le header*/
     section.Accueil a{
         width: 90%;
         padding: 10px 2px;
     }
+    /* Position du titre et arrière fond du header*/
     section.Accueil .h1Accueil{
         align-items: center;
         justify-content: center;

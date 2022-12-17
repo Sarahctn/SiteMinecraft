@@ -1,8 +1,10 @@
+/* Police Minecraft du titre*/
 @font-face
 {
     font-family:"Minecraft";
     src: url("/SiteMinecraft/css/font.ttf") format("truetype");
 }
+/* Police Minecraft pour les Boutons de la balise nav*/
 @font-face {
     font-family: "McLivre";
     src: url("/SiteMinecraft/css/Minecraftia.ttf") format("truetype");
@@ -10,9 +12,9 @@
 body {
     margin: 0; /* Pour ne pas avoir de bande blanche autour*/
     background-color: rgb(220, 220, 220); /* Sorte de gris*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;/* police de body*/
 }
-
+/* Taille et position du header*/
 header{
     background-size: contain;
     height: auto;
@@ -30,14 +32,14 @@ header{
     text-shadow: 0 3px rgb(0, 0, 0);
     margin: 0;
 }
-
+/* Taille et position des titre h1*/
 h1{
     text-align: center;
     font-size: 2em;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Taille et position du texte*/
 p.sous-titre {
     text-align: center;
     font-size: 1.5em;
@@ -48,7 +50,7 @@ p
     color:black;
     font-size: 0.5cm;
 }
-
+/* Positionnement  de la balise nav ul avec display flex*/
 nav ul
 {
     list-style: none;
@@ -56,7 +58,7 @@ nav ul
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
-    font-family: "McLivre";
+    font-family: "McLivre";/* Police de L'accueil*/
 }
 
 ol {
@@ -74,12 +76,12 @@ a:link,a:visited,a:hover /* Les boutons de lien */
     display: inline-block;
     
 }
-
+/* Positionnement des images*/
 img {
     display: block;
     margin: auto;
 }
-
+/* Couleur du bouton par curseur*/
 a:hover
 {
     background-color:rgb(80, 80, 80);
@@ -90,6 +92,7 @@ aside {
     padding: 10px;
     
 }
+/* Couleur du bouton Switch */
 button{
     background-color: gray;
     border: groove black 0.1cm;
@@ -99,6 +102,7 @@ button{
     display: inline-block; 
     font-family: McLivre;
 }
+
 button:hover
 {
     background-color:rgb(80, 80, 80);
@@ -108,7 +112,7 @@ aside h1 {
     margin-top: 0;
     font-size: 1.5em;
 }
-
+/* Couleur du footer*/
 footer
 {
     background-color: rgb(38, 38, 169);
@@ -118,7 +122,7 @@ footer p
 {
     color: white;
 }
-
+/* Couleur du bouton Retour en haut*/
 footer a.bouton 
 {
     color: white;
@@ -158,7 +162,7 @@ footer a.bouton
         display: flex;
         justify-content: space-around;
         align-items: center; 
-        background-image:url("/SiteMinecraft/Images/obsidienne.jpg") ;
+        background-image:url("/SiteMinecraft/Images/obsidienne.jpg") ;/* Background du header*/
     }
     header ul li a:hover{  
         background-color:rgb(80, 80, 80);
@@ -167,6 +171,7 @@ footer a.bouton
     {
         list-style: none;
     }
+
     .titre
     {
         text-align: center;
@@ -188,6 +193,7 @@ footer a.bouton
     {
         padding: 140px;
     }
+    /* Position du formulaire (uniquement pour la page Contact)*/
     form
     {
         display: flex;
@@ -197,16 +203,14 @@ footer a.bouton
         height: 50%;
         margin-left: 25%;   
     }
-    
+    /* Taille de la partie Commentaire (uniquement pour la page Contact)*/
     textarea
     {
         width: 300px;
         height: 50px;
     }
-    
     .lien
-    {
-        
+    {  
         color: white;
         text-align: center;
         text-decoration: none;
@@ -216,7 +220,7 @@ footer a.bouton
     {
         color:rgb(80, 80, 80);
     }
-    }
+}
 
 /* Format telephone en mode portrait */
 @media screen and (max-width: 479px){
@@ -234,7 +238,7 @@ footer a.bouton
         padding: 0 5% 0 5%;
     }
     nav ul {
-        background-color: rgb(190, 190, 190);
+        background-color: rgb(190, 190, 190);/* Sorte de gris*/
         margin-top: 10px;
     }
     a{
@@ -266,6 +270,7 @@ footer a.bouton
         margin: 10px;
         padding-top: 120px;
     }
+    /* Taille de la partie Commentaire (uniquement pour la page Contact)*/
     textarea
     {
         width: 305px;
@@ -327,6 +332,7 @@ footer a.bouton
     {
         text-align: center;
     }
+    /* Position du formulaire (uniquement pour la page Contact)*/
     form
     {
         display: flex;
@@ -335,12 +341,14 @@ footer a.bouton
         width: 50%;
         margin-left: 25%;   
     }
+    /* Taille de la partie Commentaire (uniquement pour la page Contact)*/
     textarea
-        {
-            width: 305px;
-            height: 50px;
-        }
-    img { /*Centre les images et les empeche d'etre trop grande */
+    {
+        width: 305px;
+        height: 50px;
+    }
+    img 
+    { /*Centre les images et les empeche d'etre trop grande */
         max-width: 400px;
         max-height: 300px;
         text-align: center;

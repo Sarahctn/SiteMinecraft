@@ -1,3 +1,4 @@
+//Fonction en java permettant de changer le CSS
 function toggleTheme() {
     var theme = document.getElementsByTagName('link')[0];
     if (theme.getAttribute('href') == '/SiteMinecraft/css/pages_sauf_index.css') {
