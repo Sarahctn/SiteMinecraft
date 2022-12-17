@@ -81,6 +81,19 @@ aside {
     padding: 10px;
     
 }
+button{
+    background-color: gray;
+    border: groove black 0.1cm;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-family: McLivre;
+}
+button:hover
+{
+    background-color:rgb(80, 80, 80);
+}
 
 aside h1 {
     margin-top: 0;
@@ -119,6 +132,10 @@ footer a.bouton
         padding: 14px 25px;
         margin: 0.2cm;
     }
+    button{
+        padding: 14px 25px;
+        margin: 0.2cm;
+    }
     header{
         position: fixed;
         top: 0px;
@@ -140,7 +157,7 @@ footer a.bouton
     .titre
     {
         text-align: center;
-        color: rgb(0, 136, 255);
+        color: black;
     }
     p{
         text-align: center;
@@ -160,7 +177,7 @@ footer a.bouton
     }
     section
     {
-        padding: 120px;
+        padding: 140px;
     }
     footer
     {
@@ -190,6 +207,7 @@ footer a.bouton
         position: fixed; /* Pour voir la barre même si on descend */
         top: 0; /* Pour que la barre soit fixee en haut */
     }
+   
     ul{
         margin: 0;
         padding: 0 5% 0 5%;
@@ -201,6 +219,11 @@ footer a.bouton
     a{
         margin: 0;
         padding: 0;
+    }
+    button{
+        margin: 0;
+        padding:  0;
+        padding-bottom: 5%;
     }
     img {
         max-width: 300px;
@@ -216,7 +239,7 @@ footer a.bouton
     }
     section.contenu{
         margin: 10px;
-        padding-top: 95px;
+        padding-top: 120px;
     }
     footer p {
         margin-top: 10px;
@@ -257,7 +280,12 @@ footer a.bouton
     }
     header a{
         width: 90%;
-        padding: 14px 2px;
+        padding: 10px 2px;
+    }
+    header button{
+        width: 100%;
+        padding: 10px 4px;
+        
     }
     header .h1Accueil{
         align-items: center;

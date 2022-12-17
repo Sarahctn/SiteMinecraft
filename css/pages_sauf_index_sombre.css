@@ -39,6 +39,7 @@ h1{
     margin: 0;
 }
 
+
 p.sous-titre {
     text-align: center;
     font-size: 1.5em;
@@ -73,10 +74,25 @@ a:hover
     background-color:rgb(80, 80, 80);
 }
 
+
 aside {
     background-color: rgb(255, 255, 153);
     padding: 10px;
     
+}
+
+button{
+    background-color: gray;
+    border: groove black 0.1cm;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-family: McLivre;
+}
+button:hover
+{
+    background-color:rgb(80, 80, 80);
 }
 
 aside h1 {
@@ -112,6 +128,10 @@ footer a.bouton
         color: gray;
     }
     a{
+        padding: 14px 25px;
+        margin: 0.2cm;
+    }
+     button{
         padding: 14px 25px;
         margin: 0.2cm;
     }
@@ -155,8 +175,7 @@ p{
 }
 section
 {
-    padding: 120px;
-    padding-top: 150px;
+    padding: 140px;
     
 }
 footer
@@ -199,6 +218,11 @@ footer
         margin: 0;
         padding: 0;
     }
+    button{
+        margin: 0;
+        padding:  0;
+        padding-bottom: 5%;
+    }
     img {
         max-width: 300px;
         max-height: 200px;
@@ -215,7 +239,7 @@ footer
     }
     section.contenu{
         margin: 10px;
-        padding-top: 95px;
+        padding-top: 120px;
     }
     footer p {
         margin-top: 10px;
@@ -256,7 +280,12 @@ footer
     }
     header a{
         width: 90%;
-        padding: 14px 2px;
+        padding: 10px 2px;
+    }
+    header button{
+        width: 100%;
+        padding: 10px 4px;
+        
     }
     header .h1Accueil{
         align-items: center;

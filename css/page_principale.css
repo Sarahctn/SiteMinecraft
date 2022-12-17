@@ -20,7 +20,6 @@ body {
     background-position-y: 0cm;
     text-align: center;
     margin: 0;
-    
     width: 100%;
 }
 
@@ -67,6 +66,7 @@ a:link,a:visited,a:hover /* Les boutons de lien */
     text-decoration: none;
     display: inline-block; 
 }
+
 
 a:hover
 {
@@ -136,18 +136,22 @@ footer a.bouton
 @media screen and (max-width: 479px){
     section.Accueil{
         background: none; 
-        background-color: green;
+        background-image: url("/SiteMinecraft/Images/obsidienne.jpg");
         background-position-y: 0cm;
         text-align: center;
         position: fixed; /* Pour voir la barre même si on descend */
         top: 0; /* Pour que la barre soit fixee en haut */
     }
+    section.Accueil nav ul li a{
+        width: 90%;
+    }
     ul{
         margin: 0;
         padding: 0 5% 0 5%;
     }
+
     nav ul {
-        background-color: brown;
+        background-color: rgb(190, 190, 190);
         margin-top: 10px;
     }
     a{
@@ -157,8 +161,7 @@ footer a.bouton
     img {
         max-width: 300px;
         max-height: 200px;
-        display: block;
-        margin: auto;
+
     }
     nav ul li .grandBouton {
         width: 1px;
@@ -170,7 +173,7 @@ footer a.bouton
     }
     section.contenu{
         margin: 10px;
-        padding-top: 85px;
+        padding-top: 100px;
     }
     footer p {
         margin-top: 10px;
@@ -188,7 +191,7 @@ footer a.bouton
         width: 100%;
         max-width: 100px;
         
-        background-color: brown;
+        background-color:rgb(190, 190, 190);
     }
     nav ul {
         display: flex;
@@ -211,19 +214,18 @@ footer a.bouton
     }
     section.Accueil a{
         width: 90%;
-        padding: 14px 2px;
+        padding: 10px 2px;
     }
     section.Accueil .h1Accueil{
         align-items: center;
         justify-content: center;
         width: 100%;
-        background-color: green;
+        background-image: url("/SiteMinecraft/Images/obsidienne.jpg");
     }
     img { /*Centre les images et les empeche d'etre trop grande */
         max-width: 400px;
         max-height: 300px;
         text-align: center;
-        display: block;
-        margin: auto;
+        
     }
 }
